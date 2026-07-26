@@ -15,7 +15,7 @@ export const en = {
     discord: 'Discord',
   },
   hero: {
-    overline: 'Club Code, since 2019',
+    overline: 'Club Code, since 2015',
     title_pre: 'The ',
     title_accent: 'programming',
     title_post: ' club of Télécom SudParis.',
@@ -23,7 +23,7 @@ export const en = {
     cta_primary: 'Join the Discord',
     cta_secondary: 'Discover the club',
     stats: [
-      { value: '2019', label: 'founded' },
+      { value: '2015', label: 'founded' },
       { value: '13', label: 'active members' },
       { value: '3', label: 'teams at SWERC each year' },
       { value: '75th', label: 'best SWERC 2025 ranking' },
@@ -158,7 +158,7 @@ export const en = {
   footer: {
     tagline: 'The programming club of Télécom SudParis.',
     links_title: 'Links',
-    legal: '© 2019-2026 Club Code',
+    legal: '© 2015-2026 Club Code',
     credit: 'Developed by',
   },
 } as const;
