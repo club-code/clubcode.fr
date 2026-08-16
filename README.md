@@ -99,11 +99,11 @@ Cette architecture ne nécessite **aucun port entrant ni VPN ouvert vers l'exté
 
 #### B. Configuration des droits sudo sur la VM
 
-Pour permettre au runner de synchroniser les fichiers vers le dossier web et recharger nginx sans mot de passe, créez le fichier `/etc/sudoers.d/github-runner` :
+Pour permettre au runner de synchroniser les fichiers vers le dossier web sans mot de passe, créez le fichier `/etc/sudoers.d/github-runner` :
 
 ```sudoers
 # Remplacer 'runner-user' par le compte système exécutant le runner (ex. debian, ubuntu, etc.)
-runner-user ALL=(ALL) NOPASSWD: /usr/bin/rsync, /usr/bin/chown, /bin/systemctl reload nginx, /usr/sbin/service nginx reload
+runner-user ALL=(ALL) NOPASSWD: /usr/bin/rsync, /usr/bin/chown
 ```
 
 Puis sécurisez les permissions :
