@@ -1,6 +1,6 @@
 export const fr = {
   meta: {
-    title: 'Club Code ⋅ Le club de programmation de Télécom SudParis',
+    title: 'Club Code | Le club de programmation de Télécom SudParis',
     description:
       "Le club de programmation de Télécom SudParis. Programmation compétitive, services web pour le campus, infrastructure physique et plus encore.",
   },
