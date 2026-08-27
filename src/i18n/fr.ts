@@ -18,7 +18,7 @@ export const fr = {
     overline: 'Club Code, depuis 2015',
     title_pre: 'Le club de ',
     title_accent: 'programmation',
-    title_post: ' de Télécom SudParis.',
+    title_post: ' de Télécom SudParis & IMT-BS.',
     sub: "Programmation compétitive, services construits pour le campus, une infrastructure physique sur le campus. Le Club Code réunit celles et ceux qui aiment résoudre des problèmes et partager leurs projets.",
     cta_primary: 'Rejoindre le Discord',
     cta_secondary: 'Découvrir le club',
