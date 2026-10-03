@@ -85,6 +85,38 @@ const t = ui[lang].services;
       </div>
     </article>
 
+    <article class="panel next formations reveal" style="--reveal-delay: 0.08s">
+      <div class="panel-inner next-inner">
+        <div>
+          <span class="badge badge-live">{t.formations_badge}</span>
+          <h3>{t.formations_name}</h3>
+        </div>
+        <div class="formations-copy">
+          <p class="muted">{t.formations_text}</p>
+          <a
+            class="btn btn-primary"
+            href={t.formations_url}
+            target="_blank"
+            rel="noopener"
+          >
+            {t.formations_cta}
+            <svg
+              width="11"
+              height="11"
+              viewBox="0 0 11 11"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M1 10 10 1M3 1h7v7"
+                stroke="currentColor"
+                stroke-width="1.5"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </article>
+
     <article class="panel next reveal" style="--reveal-delay: 0.12s">
       <div class="panel-inner next-inner">
         <div>
@@ -165,6 +197,12 @@ const t = ui[lang].services;
   .badge-new {
     background: var(--lav);
     color: #150f22;
+  }
+
+  .badge-live {
+    background: var(--lav-14);
+    color: var(--ink);
+    box-shadow: inset 0 0 0 1px var(--lav-25);
   }
 
   .badge-soon {
@@ -319,6 +357,16 @@ const t = ui[lang].services;
   .next-inner > div {
     display: grid;
     gap: 0.9rem;
+    justify-items: start;
+  }
+
+  .formations {
+    margin-bottom: 1.2rem;
+  }
+
+  .formations-copy {
+    display: grid;
+    gap: 1.1rem;
     justify-items: start;
   }
 

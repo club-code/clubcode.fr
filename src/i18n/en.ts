@@ -18,7 +18,7 @@ export const en = {
     overline: 'Club Code, since 2015',
     title_pre: 'The ',
     title_accent: 'programming',
-    title_post: ' club of Télécom SudParis.',
+    title_post: ' club of Télécom SudParis & IMT-BS.',
     sub: 'Competitive programming, services built for the campus, physical infrastructure on campus. Club Code brings together those who love solving problems and sharing their projects.',
     cta_primary: 'Join the Discord',
     cta_secondary: 'Discover the club',
@@ -99,6 +99,12 @@ export const en = {
     intellect_text:
       'The campus course-sharing platform: summaries, advice and past exams handed down by former students. Browsing is open to guests; a school email address lets you contribute.',
     intellect_cta: 'Visit INTellect',
+    formations_badge: 'Online',
+    formations_name: 'Formations',
+    formations_url: 'https://formations.clubcode.fr',
+    formations_text:
+      "Materials from all of the club's weekly training sessions: slides and PDFs, sorted by year, to review a session or catch up on one you missed.",
+    formations_cta: 'See the trainings',
     next_badge: 'In design',
     next_name: 'Online judge',
     next_text:

@@ -99,6 +99,12 @@ export const fr = {
     intellect_text:
       "La plateforme de partage de cours du campus : fiches, conseils et annales transmis par les anciens étudiants. La consultation est libre en mode invité ; une adresse mail de l'école permet de contribuer.",
     intellect_cta: 'Visiter INTellect',
+    formations_badge: 'En ligne',
+    formations_name: 'Formations',
+    formations_url: 'https://formations.clubcode.fr',
+    formations_text:
+      "Les supports de toutes les formations hebdomadaires du club : slides et PDF, classés par année, pour revoir une séance ou rattraper celle qu'on a manquée.",
+    formations_cta: 'Voir les formations',
     next_badge: 'En conception',
     next_name: 'Juge en ligne',
     next_text:

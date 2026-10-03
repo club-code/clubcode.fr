@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx astro *)",
+      "Bash(npm install *)",
+      "Bash(python3 -c \"import fontTools; print\\('fonttools', fontTools.version\\)\")"
+    ]
+  }
+}
