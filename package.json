@@ -19,8 +19,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.10",
-    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/check": "^0.9.12",
+    "@astrojs/sitemap": "^3.7.6",
     "astro": "^7.3.5",
     "typescript": "^6.0.3"
   },
